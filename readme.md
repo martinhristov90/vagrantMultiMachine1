@@ -6,7 +6,7 @@
 
 ## How to use it :
 
-- In a directory of your choice,clone the github repository with `git clone https://github.com/martinhristov90/vagrantMultiMachine1.git`
+- In a directory of your choice, clone the github repository with `git clone https://github.com/martinhristov90/vagrantMultiMachine1.git`
 - Change into the directory using : `cd vagrantMultiMachine1`
 - Execute `vagrant up`
 - It might take some time to download the boxes since you do not have them added to Vagrant.
