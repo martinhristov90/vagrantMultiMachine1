@@ -6,3 +6,4 @@ Vagrant.configure("2") do |config|
         node.vm.hostname = vm_name
       end
     end
+end
