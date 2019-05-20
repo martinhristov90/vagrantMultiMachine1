@@ -7,5 +7,5 @@ Vagrant.configure("2") do |config|
         node.vm.network "forwarded_port", guest: 80, host: 8080 + i
 
       end
-end
+    end
 end

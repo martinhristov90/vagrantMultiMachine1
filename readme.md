@@ -31,3 +31,4 @@ VM, run `vagrant status NAME`.
 
 
 - To stop the running machines execute `vagrant halt`, to destroy the setup use `vagrant destroy`.
+
