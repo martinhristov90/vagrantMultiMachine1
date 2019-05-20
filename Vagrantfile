@@ -4,6 +4,8 @@ Vagrant.configure("2") do |config|
       config.vm.define vm_name="web#{i}" do |node|
         node.vm.box = "martinhristov90/ubuntu_nginx"
         node.vm.hostname = vm_name
+        node.vm.network "forwarded_port", guest: 80, host: 8080 + i
+
       end
     end
 end

@@ -1,4 +1,4 @@
-## This repository provides a simple Vagrantfile to use with Vagrant, providing multi-machine setup.
+## This repository provides a simple Vagrantfile to use with Vagrant, providing multi-machine setup, both machines provide nginx servers.
 
 ## How to install Vagrant :
 
@@ -24,4 +24,11 @@ VM, run `vagrant status NAME`.
 
 ```
 
+- To view the hosted websites used this :
+
+    - For "web1" connect to your local machine to address `localhost:8081`
+    - For "web2" connect to your local machine to address `localhost:8082`
+
+
 - To stop the running machines execute `vagrant halt`, to destroy the setup use `vagrant destroy`.
+
